@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2021, 2:50:18 PM
+    Author     : stick
+*/
+.content{
+    min-height: 500px;
+}
+.contentnav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contentnav a{
+    /*display: box;*/
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 5px;
+    color: black;
+}
+.contentnav a.active {
+    background-color: green;
+    color: white;
+}
+.contentHeader{
+
+}
+.searchbar{
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.search-type{
+    width: 147px;
+    height: 47px;
+    font-size: 15px;
+    padding: 7px 15px 7px 15px;
+    display: inline-block;
+    border: 1px solid #BBBFBF;
+    border-radius: 3px;
+}
+.option-field{
+    margin: 0px 20px;
+}
+.searchButton{
+    margin-left: 10px;
+}
+/*-----------------------------------*/
+table{
+    border: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+th{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+td{
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+/*--------------------------------------*/
+.orderList{
+    margin-bottom: 20px;
+}
+.paging{
+    margin: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.paging button{
+    border-radius: 80px;;
+}
+/*---------------------------------------*/
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+.detailOrder{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px;
+    max-height: 700px;
+}
+.detailHeader{
+    padding: 5px;
+    margin-bottom: 5px;
+    display: block;
+    height: 30px;
+}
+.detailBody{
+    margin-top: 40px;
+}
+.detailBody p{
+    margin-bottom: 0px;
+}
+.detailFooter{
+    width: 100%;
+    float: right;
+}
+.detailFooter button{
+    float: right;
+}
+hr{
+    clear: both;
+}
+/*-------------------------------*/
+.menu{
+    text-align: left;
+}
+.combo{
+    text-align: left;
+}
+.service{
+    text-align: left;
+}
+.error{
+    color: red;
+}
+.errorBody{
+    height: 500px;
+}
+
